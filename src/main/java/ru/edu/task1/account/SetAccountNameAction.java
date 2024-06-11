@@ -1,6 +1,6 @@
-package ru.edu.account;
+package ru.edu.task1.account;
 
-import ru.edu.Modifable;
+import ru.edu.task1.Modifable;
 
 public class SetAccountNameAction implements Modifable {
     private Account account;

@@ -1,12 +1,20 @@
 package ru.edu;
 
-import ru.edu.account.Account;
-import ru.edu.account.SetAccountCurrenciesAction;
-import ru.edu.enums.Currency;
-import ru.edu.exceptions.UndoException;
+import ru.edu.task1.exceptions.UndoException;
+import ru.edu.task2.CustomInvocationHandler;
+import ru.edu.task2.Fraction;
+import ru.edu.task2.Fractionable;
 
 public class Main {
     public static void main(String[] args) throws UndoException {
-        System.out.println("Hello!");
+        Fraction fr = new Fraction(2,3);
+        Fractionable num = CustomInvocationHandler.createProxy(fr);
+        num.doubleValue();// sout сработал
+        num.doubleValue();// sout молчит
+        num.doubleValue();// sout молчит
+        num.setNum(5);
+        num.doubleValue();// sout сработал
+        num.doubleValue();// sout молчит
+
     }
 }

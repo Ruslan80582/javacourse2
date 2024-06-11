@@ -1,7 +1,7 @@
-package ru.edu.account;
+package ru.edu.task1.account;
 
 import lombok.Getter;
-import ru.edu.enums.Currency;
+import ru.edu.task1.enums.Currency;
 
 import java.util.HashMap;
 

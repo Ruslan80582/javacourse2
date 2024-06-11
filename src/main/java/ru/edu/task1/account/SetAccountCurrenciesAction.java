@@ -1,7 +1,7 @@
-package ru.edu.account;
+package ru.edu.task1.account;
 
-import ru.edu.enums.Currency;
-import ru.edu.Modifable;
+import ru.edu.task1.enums.Currency;
+import ru.edu.task1.Modifable;
 
 import java.util.HashMap;
 

@@ -1,13 +1,13 @@
-package ru.edu;
+package ru.edu.task1;
 
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
-import ru.edu.account.Account;
-import ru.edu.account.AccountState;
-import ru.edu.account.SetAccountCurrenciesAction;
-import ru.edu.account.SetAccountNameAction;
-import ru.edu.enums.Currency;
-import ru.edu.exceptions.UndoException;
+import ru.edu.task1.account.Account;
+import ru.edu.task1.account.AccountState;
+import ru.edu.task1.account.SetAccountCurrenciesAction;
+import ru.edu.task1.account.SetAccountNameAction;
+import ru.edu.task1.enums.Currency;
+import ru.edu.task1.exceptions.UndoException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

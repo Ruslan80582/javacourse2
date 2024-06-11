@@ -1,6 +1,6 @@
-package ru.edu;
+package ru.edu.task1;
 
-import ru.edu.exceptions.UndoException;
+import ru.edu.task1.exceptions.UndoException;
 
 import java.util.Stack;
 
